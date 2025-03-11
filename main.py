@@ -1,7 +1,8 @@
 from typing import Union
 from fastapi import FastAPI
 from pydantic import BaseModel
-
+#this was a relatively short exercise, and it only had two parts where we actually had to code
+#so this comment exists just for me to have a third commit
 
 app = FastAPI()
 
