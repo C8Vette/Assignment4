@@ -4,6 +4,9 @@ from pydantic import BaseModel
 #this was a relatively short exercise, and it only had two parts where we actually had to code
 #so this comment exists just for me to have a third commit
 
+#ignore the "Created main file" commit, I made a mistake trying to throw in more commits
+#to satisfy the requirements of the exercise
+
 app = FastAPI()
 
 class Item(BaseModel):
